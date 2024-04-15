@@ -87,3 +87,8 @@ address {
 body {
   font-family: Manrope;
 }
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
