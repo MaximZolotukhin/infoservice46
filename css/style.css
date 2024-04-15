@@ -97,14 +97,14 @@ body {
 /* HEADER */
 
 header {
-  width: 1400px;
+  max-width: 1400px;
 }
 
 .top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 80px;
+  padding: 0 80px;
   height: 72px;
 }
 
@@ -138,4 +138,132 @@ header {
   display: flex;
   justify-content: space-between;
   row-gap: 20px;
+}
+
+.down-header-block {
+  height: 643px;
+  width: 1400px;
+  background-image: url("../img/header_background.png");
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.header-block-content {
+  width: 640px;
+  height: 300px;
+  margin-top: 146px;
+  margin-left: 80px;
+}
+
+.header-block-content-title {
+  width: 543px;
+  height: 120px;
+}
+
+.header-block-content-title h1 {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header-offer {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.header-offer ul {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.header-offer li {
+  width: 295px;
+  height: 41px;
+  padding: 8px 24px 8px 55px;
+  background-color: rgb(235, 150, 45);
+  border-radius: 22px;
+  background-image: url("../img/icons-done.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+}
+
+.header-offer li:last-child {
+  width: 320px;
+}
+
+.header-content-down-block {
+  height: 176px;
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-advantages {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-top: 48px;
+  height: 176px;
+}
+
+.header-advantages ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 12px;
+}
+
+.header-advantages li {
+  width: 240px;
+  height: 50px;
+}
+
+.header-advantages li span {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.header-adders {
+  width: 155px;
+  margin-top: 41px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.header-adders .adderss-block {
+  height: 67px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header-adders .adderss-block address {
+  color: rgb(235, 150, 45);
+}
+
+.header-adders .adderss-block a {
+  display: block;
+  margin-top: 8px;
+  color: rgb(255, 255, 255);
 }
