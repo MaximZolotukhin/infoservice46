@@ -86,9 +86,56 @@ address {
 
 body {
   font-family: Manrope;
+  color: black;
 }
 
 .wrapper {
   width: 1400px;
   margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  width: 1400px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  height: 72px;
+}
+
+.logo {
+  width: 235px;
+  height: 36px;
+}
+
+.header-nav {
+  color: rgb(47, 43, 41);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 392px;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+
+.link-social {
+  width: 130px;
+  height: 30px;
+}
+
+.link-social ul {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
 }
