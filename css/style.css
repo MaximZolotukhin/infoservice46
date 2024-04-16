@@ -90,14 +90,17 @@ body {
 }
 
 .wrapper {
-  width: 1400px;
+  max-width: 1400px;
+  min-height: 600px;
   margin: 0 auto;
+  border: 5px solid red;
 }
 
 /* HEADER */
 
 header {
-  max-width: 1400px;
+  width: 100%;
+  z-index: 50;
 }
 
 .top-bar {
@@ -105,12 +108,19 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 80px;
-  height: 72px;
+  min-height: 72px;
 }
 
 .logo {
-  width: 235px;
-  height: 36px;
+  min-width: 235px;
+  min-height: 36px;
+}
+
+.header-menu {
+  min-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -119,9 +129,51 @@ header {
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0%;
-  text-align: left;
-  width: 392px;
+  min-width: 392px;
+  z-index: 2;
 }
+
+.menu-mobile {
+  display: none;
+}
+
+/* menu-mobile */
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+/* menu-mobile */
 
 .header-nav ul {
   display: flex;
@@ -130,8 +182,8 @@ header {
 }
 
 .link-social {
-  width: 130px;
-  height: 30px;
+  min-width: 130px;
+  min-height: 30px;
 }
 
 .link-social ul {
@@ -140,9 +192,13 @@ header {
   row-gap: 20px;
 }
 
-.down-header-block {
-  height: 643px;
-  width: 1400px;
+.menu-mobile {
+  display: none;
+}
+
+/* .down-header-block {
+  min-height: 643px;
+  width: 100%;
   background-image: url("../img/header_background.png");
   background-size: 100% 100%;
   display: inline-block;
@@ -270,4 +326,4 @@ header {
   display: block;
   margin-top: 8px;
   color: rgb(255, 255, 255);
-}
+} */
