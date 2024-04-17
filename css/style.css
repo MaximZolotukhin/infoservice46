@@ -93,7 +93,7 @@ body {
   max-width: 1400px;
   min-height: 600px;
   margin: 0 auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 /* HEADER */
@@ -196,7 +196,7 @@ header {
   display: none;
 }
 
-/* .down-header-block {
+.down-header-block {
   min-height: 643px;
   width: 100%;
   background-image: url("../img/header_background.png");
@@ -204,7 +204,7 @@ header {
   display: inline-block;
 }
 
-.header-block-content {
+/* .header-block-content {
   width: 640px;
   height: 300px;
   margin-top: 146px;
