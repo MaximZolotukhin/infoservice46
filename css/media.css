@@ -157,7 +157,7 @@
   }
 
   .down-header-block {
-    min-height: 743px;
+    min-height: 800px;
     max-width: none;
     background-image: url("../img/header_background_850.png");
   }
@@ -166,6 +166,23 @@
     margin-top: 100px;
     margin-left: 40px;
     width: 80%;
+  }
+
+  .header-offer {
+    font-size: 14px;
+  }
+
+  .header-offer ul {
+    justify-content: start;
+    column-gap: 20px;
+  }
+
+  .header-offer li {
+    width: 270px;
+  }
+
+  .header-offer li:last-child {
+    width: 270px;
   }
 }
 
@@ -178,6 +195,40 @@
   .header-block-content-title h1 {
     font-size: 50px;
   }
+
+  .header-offer {
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(235, 150, 45);
+  }
+
+  .header-offer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 10px;
+  }
+
+  .header-offer li {
+    text-align: left;
+    vertical-align: middle;
+    height: 20px;
+    padding: 0 24px 25px 35px;
+    background-color: transparent;
+    width: 80%;
+    border-radius: 0;
+    background-position: 5px 50%;
+    background-image: url("../img/icons_done_orange.svg");
+    background-size: 5%;
+  }
+
+  .header-offer li:last-child {
+    width: 80%;
+  }
+
+  .header-advantages {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 565px) {
@@ -188,6 +239,11 @@
 
   .header-block-content-title h1 {
     font-size: 40px;
+  }
+
+  .header-content-down-block {
+    width: 80%;
+    display: flex;
   }
 }
 
@@ -247,5 +303,30 @@
 
   .header-block-content-title h1 {
     font-size: 30px;
+  }
+
+  .header-offer {
+    font-size: 12px;
+  }
+
+  .header-advantages {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  .header-advantages ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 5px;
+  }
+  .header-advantages li span {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .header-advantages li img {
+    height: 36px;
   }
 }

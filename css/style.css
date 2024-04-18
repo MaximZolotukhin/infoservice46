@@ -226,7 +226,7 @@ header {
   text-align: left;
 }
 
-/* .header-offer {
+.header-offer {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 500;
@@ -243,7 +243,7 @@ header {
 }
 
 .header-offer li {
-  width: 295px;
+  width: 46%;
   height: 41px;
   padding: 8px 24px 8px 55px;
   background-color: rgb(235, 150, 45);
@@ -254,7 +254,7 @@ header {
 }
 
 .header-offer li:last-child {
-  width: 320px;
+  width: 50%;
 }
 
 .header-content-down-block {
@@ -294,7 +294,7 @@ header {
   margin-left: 10px;
 }
 
-.header-adders {
+/* .header-adders {
   width: 155px;
   margin-top: 41px;
   color: rgb(255, 255, 255);
