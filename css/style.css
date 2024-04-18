@@ -204,17 +204,17 @@ header {
   display: inline-block;
 }
 
-/* .header-block-content {
+.header-block-content {
   width: 640px;
   height: 300px;
   margin-top: 146px;
   margin-left: 80px;
 }
 
-.header-block-content-title {
+/* .header-block-content-title {
   width: 543px;
   height: 120px;
-}
+} */
 
 .header-block-content-title h1 {
   color: rgb(255, 255, 255);
@@ -226,7 +226,7 @@ header {
   text-align: left;
 }
 
-.header-offer {
+/* .header-offer {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 500;
