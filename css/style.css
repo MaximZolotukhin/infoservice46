@@ -294,7 +294,7 @@ header {
   margin-left: 10px;
 }
 
-/* .header-adders {
+.header-adderss-all {
   width: 155px;
   margin-top: 41px;
   color: rgb(255, 255, 255);
@@ -304,11 +304,11 @@ header {
   letter-spacing: 0%;
 }
 
-.header-adders h2 {
+.header-adderss-all h2 {
   font-size: 18px;
 }
 
-.header-adders .adderss-block {
+.header-adderss-all .adderss-block {
   height: 67px;
   margin-top: 15px;
   font-size: 14px;
@@ -318,12 +318,12 @@ header {
   text-align: left;
 }
 
-.header-adders .adderss-block address {
+.header-adderss-all .adderss-block address {
   color: rgb(235, 150, 45);
 }
 
-.header-adders .adderss-block a {
+.header-adderss-all .adderss-block a {
   display: block;
   margin-top: 8px;
   color: rgb(255, 255, 255);
-} */
+}
