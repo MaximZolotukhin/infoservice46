@@ -327,3 +327,29 @@ header {
   margin-top: 8px;
   color: rgb(255, 255, 255);
 }
+
+/* ГЛАВНЫЙ БЛОК */
+/* Услуги */
+
+.service {
+  margin: 100px 80px 0;
+}
+
+.service ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.service ul img {
+  max-width: 100%;
+}
+
+.service ul h2 {
+  color: rgb(47, 43, 41);
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
