@@ -208,7 +208,7 @@
     margin: 60px 90px 0;
   }
 
-  .service ul {
+  .service-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -392,9 +392,14 @@
   /* Услуги */
   .service {
     margin: 30px 15px 0;
+    padding-bottom: 15px;
   }
 
-  .service ul {
+  .service-list {
+    display: none;
+  }
+
+  .service-list-open {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
@@ -404,5 +409,25 @@
     grid-column: span 1;
   }
 
+  .service-spoller {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0px 10px 10px;
+  }
+
+  .service-spoller img {
+    width: 25px;
+    display: block;
+  }
+
+  .service .service-header {
+    display: none;
+  }
+
+  .button-service {
+    background-color: white;
+  }
   /* Добавить споллер */
 }
