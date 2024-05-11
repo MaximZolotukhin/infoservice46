@@ -29,6 +29,18 @@
   .service ul h2 {
     font-size: 40px;
   }
+
+  .us-company {
+    padding-left: 40px;
+  }
+
+  .us-company h2 {
+    font-size: 40px;
+  }
+
+  .why-we h2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -217,6 +229,41 @@
   .service-header {
     grid-column: span 2;
   }
+
+  .us-company {
+    padding-left: 40px;
+    row-gap: 40px;
+    column-gap: 40px;
+  }
+
+  .us-company h2 {
+    font-size: 30px;
+  }
+
+  .us-company {
+    padding-left: 40px;
+    flex-direction: column;
+  }
+
+  .us-company h2 {
+    font-size: 40px;
+  }
+
+  .text-us-company {
+    width: 100%;
+  }
+
+  .why-we {
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 80px 60px 77px;
+    margin-top: 20px;
+  }
+
+  .why-we-icons-list {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 675px) {
@@ -261,6 +308,17 @@
 
   .header-advantages {
     margin-top: 30px;
+  }
+
+  .why-we ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    font-size: 14px;
+  }
+
+  .service {
+    margin: 40px 40px 0;
+    width: 90%;
   }
 }
 
@@ -391,8 +449,8 @@
   /* MAIN */
   /* Услуги */
   .service {
-    margin: 30px 15px 0;
-    padding-bottom: 15px;
+    margin: 30px 0;
+    width: 90%;
   }
 
   .service-list {
@@ -403,6 +461,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
+    margin-left: 20px;
   }
 
   .service-header {
@@ -413,8 +472,13 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 90%;
-    margin: 0px 10px 10px;
+    max-width: 95%;
+    margin: 0 5px 10px 25px;
+  }
+
+  .service-spoller > h2 {
+    font-size: 25px;
+    font-weight: 500;
   }
 
   .service-spoller img {
@@ -430,4 +494,63 @@
     background-color: white;
   }
   /* Добавить споллер */
+
+  .us-company > h2 {
+    display: none;
+    padding: 20px 15px;
+  }
+
+  .us-company-spoller {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0px 10px 10px;
+  }
+
+  .us-company-spoller h2 {
+    font-size: 25px;
+  }
+
+  .us-company-spoller img {
+    width: 25px;
+    display: block;
+    background: rgb(246, 246, 248);
+  }
+
+  .us-company {
+    padding: 30px 15px 20px;
+    margin-top: 0px;
+  }
+
+  .text-us-company {
+    display: none;
+    font-size: 14px;
+  }
+
+  .text-us-company-open {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .us-company-block1 {
+    font-size: 16px;
+  }
+  .us-company-block1,
+  .us-company-block2,
+  .us-company-block3 {
+    grid-column: auto;
+    grid-row: auto;
+    font-size: 14px;
+  }
+
+  .why-we {
+    padding: 30px 25px 30px;
+    margin-top: 10px;
+    width: 95%;
+  }
+
+  .why-we h2 {
+    font-size: 25px;
+  }
 }

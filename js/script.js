@@ -18,3 +18,19 @@ document.querySelector(".button-service").onclick = (event) => {
     image.alt = "cross";
   }
 };
+
+// Сполллер сервис
+document.querySelector(".button-us-company").onclick = (event) => {
+  const spollerClass = document.querySelector(".text-us-company");
+  spollerClass.classList.toggle("text-us-company-open");
+  const image = document
+    .querySelector(".button-us-company")
+    .querySelector("img");
+  if (image.src.includes("cross.svg")) {
+    image.src = "./img/spoler/union.svg";
+    image.alt = "union";
+  } else {
+    image.src = "./img/spoler/cross.svg";
+    image.alt = "cross";
+  }
+};

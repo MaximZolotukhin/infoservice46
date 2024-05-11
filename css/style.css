@@ -378,7 +378,7 @@ header {
 }
 
 .text-us-company {
-  width: 65%;
+  width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-rows: repeat(2, 1fr); */
@@ -410,4 +410,62 @@ header {
 .us-company-block3 {
   grid-row: 2/2;
   grid-column: 2/3;
+}
+
+.us-company-spoller {
+  display: none;
+}
+
+.why-we {
+  padding: 72px 80px 60px 77px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: rgb(47, 43, 41);
+  box-sizing: border-box;
+}
+
+.why-we-header {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.why-we-icons-list {
+  width: 60%;
+  min-height: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.why-we-icons-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+  color: rgb(47, 43, 41);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+.why-we-icons-list li img {
+  max-width: 86px;
+  max-height: 86px;
+}
+
+/* ----------------------- footer ------------------------------------ */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(246, 246, 248);
 }
