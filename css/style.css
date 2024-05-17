@@ -465,20 +465,30 @@ header {
 /* ----------------------- footer ------------------------------------ */
 
 footer {
-  height: 300px;
+  min-height: 300px;
   display: flex;
   justify-content: start;
   background-color: rgb(246, 246, 248);
   padding: 82px 80px 0 80px;
+  background-image: url("../img/wave.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 500px 190px;
 }
 
-.link-social {
+.footer-link-social {
   margin-top: 40px;
   width: 130px;
 }
 
+.footer-link-social ul {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
 .footer-center {
-  margin-left: 170px;
+  margin-left: 10%;
   color: rgb(47, 43, 41);
   font-size: 18px;
   font-weight: 500;
@@ -488,7 +498,7 @@ footer {
 }
 
 .footer-right {
-  margin-left: 295px;
+  margin-left: auto;
 }
 
 .footer-adderss-all {
