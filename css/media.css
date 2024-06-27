@@ -52,6 +52,26 @@
   .footer-center {
     margin-left: 55px;
   }
+
+  /* ------------------- PAGE CONTACT -------------------------------- */
+  .contact-block {
+    max-width: 996px;
+    margin: 50px 40px;
+  }
+
+  .contact-address-title h2 {
+    color: rgb(47, 43, 41);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .contact-address-block {
+    min-width: 350px;
+    padding: 20px 0px 10px 16px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -293,6 +313,30 @@
     flex-direction: column;
     justify-content: space-between;
     row-gap: 40px;
+  }
+
+  /* ------------------- PAGE CONTACT -------------------------------- */
+  .contact-block {
+    max-width: 850px;
+    margin: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .contact-address-title h2 {
+    color: rgb(47, 43, 41);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .contact-address-block {
+    max-width: 350px;
+    padding: 20px 0px 10px 16px;
   }
 }
 
