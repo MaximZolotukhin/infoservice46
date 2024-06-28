@@ -599,3 +599,42 @@ footer {
   width: 320px;
   height: 240px;
 }
+
+/* --------------------- Страница Услуги ----------------------------- */
+.service-block {
+  padding: 80px;
+}
+
+.service-block h2 {
+  color: rgb(33, 32, 31);
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.service-section-block {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.service-img {
+  margin-right: 115px;
+  height: 295px;
+}
+
+.service-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  color: rgb(47, 43, 41);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: justify;
+}
